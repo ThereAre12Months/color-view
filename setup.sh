@@ -20,5 +20,8 @@ echo "INFO: installing/upgrading pip and requirements"
 python3 -m pip install --upgrade pip
 python3 -m pip install --upgrade -r requirements.txt
 
+# make executable
+chmod +x ./run.sh
+
 # exit venv
 deactivate
